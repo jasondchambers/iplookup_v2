@@ -1,2 +1,2 @@
-docker stop iplookup
-docker rm iplookup
+docker stop iplookupv2
+docker rm iplookupv2

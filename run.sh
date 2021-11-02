@@ -1,2 +1,2 @@
-docker stop iplookup
-nohup docker run --name iplookup -p 5001:5001 iplookup &
+docker stop iplookupv2
+nohup docker run --name iplookupv2 -p 5001:5001 iplookupv2 &

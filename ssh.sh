@@ -1,1 +1,1 @@
-docker exec -it iplookup /bin/sh
+docker exec -it iplookupv2 /bin/sh

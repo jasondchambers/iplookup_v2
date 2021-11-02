@@ -1,1 +1,1 @@
-docker build --tag iplookup .
+docker build --tag iplookupv2 .

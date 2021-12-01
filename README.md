@@ -2,8 +2,6 @@
 
 This component, when integrated through the [External Lookup](https://www.cisco.com/c/dam/en/us/td/docs/security/stealthwatch/management_console/external_lookup/7_4_External_Lookup_DV_1_0.pdf) feature of [Cisco Secure Network Analytics](https://www.cisco.com/c/en/us/products/security/stealthwatch/index.html) enables the user to lookup an internal IP details by redirecting to the Meraki Dashboard.
 
-This component is available for use by the Cisco DevNet community through Code Exchange.
-
 ## Requirements
 1. Docker (this component is built and run as a Docker container)
 2. Cisco Secure Network Analytics 7.4.0 and above
@@ -72,16 +70,8 @@ Now, we can run the unit tests as follows:
 ./unittest.sh
 ```
 
-### Structure
-
-TODO
-
-## Getting Involved
-Contributions to this code are welcome and appreciated... see [CONTRIBUTING](CONTRIBUTING.md) for details... 
-
-Please adhere to our [Code of Conduct](CODE_OF_CONDUCT.md) at all times
 
 ## Licensing info
 This code is licensed under the BSD 3-Clause License... see [LICENSE](LICENSE) for details
 
-[![published](https://static.production.devnetcloud.com/codeexchange/assets/images/devnet-published.svg)](https://developer.cisco.com/codeexchange/github/repo/yzxbmlf/ipblock)
+

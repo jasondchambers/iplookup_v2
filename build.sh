@@ -1,1 +1,1 @@
-docker build --tag iplookupv2 .
+docker build --tag iplookupv2_image .

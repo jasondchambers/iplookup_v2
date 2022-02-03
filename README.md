@@ -1,8 +1,6 @@
 # iplookup
 
-This component, when integrated through the [External Lookup](https://www.cisco.com/c/dam/en/us/td/docs/security/stealthwatch/management_console/external_lookup/SW_7_3_External_Lookup_DV_1_0.pdf) feature of [Cisco Secure Network Analytics](https://www.cisco.com/c/en/us/products/security/stealthwatch/index.html) enables the user to lookup an internal IP details by redirecting to the Meraki Dashboard.
-
-This component is available for use by the Cisco DevNet community through Code Exchange.
+This component, when integrated through the [External Lookup](https://www.cisco.com/c/dam/en/us/td/docs/security/stealthwatch/management_console/external_lookup/7_4_External_Lookup_DV_1_0.pdf) feature of [Cisco Secure Network Analytics](https://www.cisco.com/c/en/us/products/security/stealthwatch/index.html) enables the user to lookup an internal IP details by redirecting to the Meraki Dashboard.
 
 ## Requirements
 1. Docker (this component is built and run as a Docker container)
@@ -23,7 +21,7 @@ ENV network_id YOUR_MERAKI_NETWORK_ID_KEY_GOES_HERE
 ```
 > **Note:** To obtain your Meraki API key, please follow these steps: https://documentation.meraki.com/zGeneral_Administration/Other_Topics/The_Cisco_Meraki_Dashboard_API
 
-Decide which port the service is to listen on - the default is 5002. Modify the run.sh script if there is a requirement to use a different port and map it to the container port of 5002.
+Decide which port the service is to listen on - the default is 5001. Modify the run.sh script if there is a requirement to use a different port and map it to the container port of 5001.
 
 Now continue to the "Build" step.
 
@@ -40,7 +38,8 @@ Once built, run the Docker container as follows:
 ## Cisco Secure Network Analytics Configuration
 The next step is configure the External Lookup Feature in Cisco Network Analytics.
 
-TODO Instructions for how to do this can be found in the [Cisco Stealthwatch documentation.](https://www.cisco.com/c/dam/en/us/td/docs/security/stealthwatch/management_console/external_lookup/SW_7_3_External_Lookup_DV_1_0.pdf?cachemode=refresh) 
+Instructions for how to do this can be found in the [Cisco Secure Network Analytics documentation.] 
+(https://www.cisco.com/c/dam/en/us/td/docs/security/stealthwatch/management_console/external_lookup/7_4_External_Lookup_DV_1_0.pdf)
 
 
 ## Testing
@@ -71,16 +70,8 @@ Now, we can run the unit tests as follows:
 ./unittest.sh
 ```
 
-### Structure
-
-TODO
-
-## Getting Involved
-Contributions to this code are welcome and appreciated... see [CONTRIBUTING](CONTRIBUTING.md) for details... 
-
-Please adhere to our [Code of Conduct](CODE_OF_CONDUCT.md) at all times
 
 ## Licensing info
 This code is licensed under the BSD 3-Clause License... see [LICENSE](LICENSE) for details
 
-[![published](https://static.production.devnetcloud.com/codeexchange/assets/images/devnet-published.svg)](https://developer.cisco.com/codeexchange/github/repo/yzxbmlf/ipblock)
+
